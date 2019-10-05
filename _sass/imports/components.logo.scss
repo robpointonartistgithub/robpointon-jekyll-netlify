@@ -1,0 +1,16 @@
+
+.logo {
+	margin-top: 25px;
+}
+
+@media #{$small-and-down} {
+	.logo img { 
+		
+	}
+}
+
+@media #{$medium-only} {
+	.logo img { 
+		
+	}
+}

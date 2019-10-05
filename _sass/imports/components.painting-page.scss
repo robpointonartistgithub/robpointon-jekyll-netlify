@@ -1,0 +1,64 @@
+.painting-page__main-image {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.painting-page__h1 {
+    margin-bottom: 25px;
+}
+
+.painting-page__camera {
+    margin-bottom: 25px;
+}
+
+.painting-page__content-wrapper {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.painting-page__main-image--portrait, .painting-page__main-image--landscape, .painting-page__main-image--square {
+        display: block!important;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+@media #{$small-and-down} {
+    .painting-page__main-image--portrait {
+        padding: 0 5%;
+    }
+
+    .painting-page__main-image--square {
+        padding: 0 5%;
+    }
+}
+
+@media #{$medium-and-up} {
+    .painting-page__main-image--portrait {
+        padding: 0 25%;
+    }
+
+    .painting-page__main-image--landscape {
+        padding: 0 15%;
+    }
+
+    .painting-page__main-image--square {
+        padding: 0 15%;
+    }
+}
+
+@media #{$large-and-up} {
+    .painting-page__main-image--portrait {
+        padding: 0 35%;
+    }
+
+    .painting-page__main-image--square {
+        padding: 0 28%;
+    }
+}
+
+.painting-page__content-wrapper p {
+    margin-bottom: 30px;
+}

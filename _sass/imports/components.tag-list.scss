@@ -1,0 +1,17 @@
+.tag-list {
+	list-style: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.tag-list__link { 
+	display: inline-block;
+	margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.tag-list__icon {
+	width: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,130 @@
+html { 
+	color: $near-black;
+}
+
+body {
+	@include rem(font-size, $font-size-normal);
+	@include rem(line-height, 3.3rem);
+	//@include rem(margin, 0 0 3.3rem);
+	font-weight: $light-weight;
+}
+
+a {
+	color: $link-blue;
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Headings
+   ========================================================================== */
+
+h1, h2,h3,h4,h5,h6 { 
+	font-family: $brandfont;
+}
+
+h2,h3,h4,h5,h6 { 
+	@include rem(font-size, $font-size-medium);
+	font-weight: $light-weight;
+	@include rem(line-height, 3.6rem 0); 
+	@include rem(margin, 0 0 0.7272rem);
+}
+
+h1, .txt-xlarge { 
+	@include rem(font-size, $font-size-large);
+	font-weight: $light-weight;
+	@include rem(line-height, 5.5rem);
+	@include rem(margin, 0 0 0.8rem); 
+	color: $near-black;
+}
+
+
+
+.txt-large { 
+	@include rem(font-size, $font-size-medium);
+	font-weight: $heavy-weight;
+	@include rem(line-height, 3.6rem 0); 
+	@include rem(margin, 0 0 0.7272rem);
+} 
+
+
+.txt-medium { 
+	@include rem(font-size, 2.4rem);
+	@include rem(line-height, 3.6rem 0); 
+	@include rem(margin, 0 0 0.7272rem); 
+} 
+
+.txt-normal { 
+	@include rem(font-size, $font-size-normal);
+} 
+
+.txt-small { 
+	@include rem(font-size, 1.4rem);
+} 
+
+.txt-xsmall { 
+	@include rem(font-size, 1rem);
+} 
+
+.section-title {
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+blockquote {
+	color: $gray-medium;
+	margin: 0 0 1.25em;
+	padding: 0.5625em 1.25em 0.625em 1.1875em;
+	border-left: 5px solid $red-ferrari;
+	@include rem(font-size, 3rem);
+	@include rem(line-height, 3.6rem);
+	@include rem(margin, 0 0 3.3rem);
+	font-family: $brandfont;
+	font-style: italic;
+}
+
+.white {
+	color: #fff;
+}
+
+
+@media #{$small-and-down} {
+	body {
+		@include rem(font-size, $font-size-normal / 1.2);
+		@include rem(line-height, 3.3rem / 1.2);
+	}
+
+	h2,h3,h4,h5,h6 { 
+		@include rem(font-size, $font-size-medium / 1.2);
+		@include rem(line-height, 3.6rem/1.2 0); 
+	}
+
+	h1, .txt-xlarge { 
+		@include rem(font-size, $font-size-large / 1.5);
+		@include rem(line-height, 5.5rem / 1.2);
+	}
+
+
+
+	.txt-large { 
+		@include rem(font-size, $font-size-medium / 1.2);
+		@include rem(line-height, 3.6rem / 1.2 0 ); 
+	} 
+
+
+	.txt-medium { 
+		@include rem(font-size, 2.4rem / 1.2);
+		@include rem(line-height, 3.6rem / 1.2 0); 
+	} 
+
+	.txt-normal { 
+		@include rem(font-size, $font-size-normal / 1.2);
+	} 
+}
+
+
+.photo-page__content-wrapper p {
+	margin-bottom: 30px;
+}

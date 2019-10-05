@@ -1,0 +1,121 @@
+.hero-banner {
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.hero-banner::before {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: #f8f7f5;
+    display: block;
+    content: "";
+}
+
+.hero-banner__inner {
+    min-height: 60vh;
+}
+
+.hero-banner .hero-banner__background.hero-banner__background--video {
+    opacity: 1;
+}
+
+.hero-banner__background--video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media #{$small-and-down} {
+    .hero-banner__background--video video {
+        display: none;
+    }
+    .hero-banner__background--mobile-image {
+        display: inline-block;
+    }
+}
+
+@media #{$medium-and-up} {
+    .hero-banner__background--mobile-image {
+        display: none;
+    }
+}
+.hero-banner .hero-banner__background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.hero-banner__content--wrapper {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.hero-banner__content--text {
+    text-align: center;
+    max-width: 720px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.hero-banner h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    font-weight: normal;
+    margin: 2rem 0;
+    color: white;
+}
+
+.hero-banner p {
+    margin-bottom: 1em;
+}
+
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+user agent stylesheet
+video {
+    object-fit: contain;
+}
+
+
+

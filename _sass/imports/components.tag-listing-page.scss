@@ -1,0 +1,32 @@
+.tag-listing-page__h1 {
+    text-transform: uppercase;
+    border-top: 1px solid #eaeaea;
+    padding-top: 20px;
+}
+
+.tag-listing-page__count {
+	margin-top: 20px;
+	@include rem(font-size, 1.6rem);
+	text-transform: uppercase;
+}
+
+.tag-listing-page__paginator-buttons {
+	margin-top: 30px;
+	text-align: center; list-style: none;
+}
+
+.tag-listing-page__paginator-btn {
+	display: inline-block;
+	border: 1px solid #eaeaea;
+	margin: 5px;
+	//text-transform: uppercase;
+}
+
+.tag-listing-page__paginator-btn a {
+	padding: 15px; 
+	display: block;
+}
+
+.tag-listing-page__paginator-btn a:hover, .tag-listing-page__paginator-btn a:focus {
+	font-style: italic;
+}

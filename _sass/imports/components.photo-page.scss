@@ -1,0 +1,60 @@
+.photo-page__main-image {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.photo-page__h1 {
+	margin-bottom: 25px;
+}
+
+.photo-page__camera {
+	margin-bottom: 25px;
+}
+
+.photo-page__content-wrapper {
+	max-width: 730px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.photo-page__main-image--portrait, .photo-page__main-image--landscape, .photo-page__main-image--square {
+		display: block!important;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+@media #{$small-and-down} {
+	.photo-page__main-image--portrait {
+		padding: 0 5%;
+	}
+
+	.photo-page__main-image--square {
+		padding: 0 5%;
+	}
+}
+
+@media #{$medium-and-up} {
+	.photo-page__main-image--portrait {
+		padding: 0 25%;
+	}
+
+	.photo-page__main-image--landscape {
+		padding: 0 15%;
+	}
+
+	.photo-page__main-image--square {
+		padding: 0 15%;
+	}
+}
+
+@media #{$large-and-up} {
+	.photo-page__main-image--portrait {
+		padding: 0 35%;
+	}
+
+	.photo-page__main-image--square {
+		padding: 0 28%;
+	}
+}

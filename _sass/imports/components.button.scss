@@ -1,0 +1,31 @@
+.btn {
+	background-color: $primary-button-color;
+	color: #fff;
+}
+
+.btn, button.btn, input[type="submit"] {
+    border: none;
+    display: inline-block;
+    *zoom: 1;
+    text-align: center;
+    cursor: pointer;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: background-color 0.2s linear,color 0.2s linear;
+    -o-transition: background-color 0.2s linear,color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear,color 0.2s linear;
+    transition: background-color 0.2s linear,color 0.2s linear;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.btn--type__secondary {
+    background-color: $grey-color-dark;
+}
+
