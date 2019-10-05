@@ -45,8 +45,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
     #imported from hugo
-    - name: "pages"
-    label: "Pages"
     files:
       - file: "index.md"
         label: "Home Page"
