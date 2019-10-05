@@ -1,0 +1,28 @@
+<div class="hero-banner">
+    <div class="hero-banner__inner"> 
+      <div class="hero-banner__background hero-banner__background--video">
+          <video autoplay="autoplay" muted="muted" loop="loop" poster="{{ .imageUrl }}">
+              <!-- if Safari/Chrome--> 
+              <source class="video--mp4" src="{{ .video_mp4 }}" type="video/mp4">
+              <!-- if Firefox --> 
+              <source class="video--webm" src="{{ .video_webm }}" type="video/webm">
+          </video>
+          <img src="{{ .imageUrl }}" alt="" class="hero-banner__background--mobile-image"/>
+      </div>
+      <style>video::-webkit-media-controls-start-playback-button {display:none !important;}</style> 
+
+    <div class="hero-banner__content--wrapper">
+        <div class="hero-banner__content--inner">
+            <div class="hero-banner__content--text">
+                <h2 class="txt-xlarge">{{.title}}</h2>
+                {{ if .subtitle }}
+                    <p>{{.subtitle}}</p>
+                {{ end }}
+                {{ if .button_link }}
+                    <p class="btn-row--align__center"><a class="btn text-uppercase" href="{{.button_link}}"><i class="btn__icon icon--arrow-right"> </i><span class="btn__text">{{.button_text}}</span></a></p>
+                {{ end }}
+            </div>
+        </div>
+    </div>     
+  </div>
+</div>
