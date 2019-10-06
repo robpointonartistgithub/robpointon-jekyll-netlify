@@ -3,11 +3,12 @@
 	<h2 class="center txt-xlarge section-title">Latest Work</h2>
 
 	<div class="gamma-container gamma-loading" id="gamma-container">
-		
+		<p>vsc s sc sc cs</p>
 		<ul class="gamma-gallery">
-			{% for post in site.posts limit:3 %}
+			{% for painting in site.paintings limit:3 %}
 		        <li>
-		          <a href="{{ post.url }}">Title:{{ post.title }}</a>
+		        	<p>dfddf</p>
+		          <a href="{{ post.url }}">{{ painting.title }}</a>
 		        </li>
 		    {% endfor %}
 		</ul>

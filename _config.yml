@@ -53,6 +53,12 @@ defaults:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
 
+
+collections:
+  paintings:
+    output: true
+
+    
 # Build settings
 markdown: kramdown
 
