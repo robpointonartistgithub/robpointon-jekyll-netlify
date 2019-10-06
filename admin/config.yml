@@ -56,21 +56,21 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Permalink", name: "permalink", widget: hidden, default: "/"}
           - {label: "homepage Title", name: title, widget: string}
           - {label: "homepage Subtitle", name: "subtitle", widget: string}
-          - {label: "homepage Image", name: image, widget: image}
+          - {label: "homepage Image", name: imageUrl, widget: image}
           - {label: "homepage Button text", name: button_text, widget: string}
           - {label: "homepage Button link", name: button_link, widget: string}
           - {label: "homepage Video WEBM", name: video_webm, widget: string}
           - {label: "homepage Video MP4", name: video_mp4, widget: string}
-          - {label: "Manual PDF", name: "manual_pdf", widget: "file", default: "/uploads/" , media_library:"/uploads/", config:, multiple: true}
-          - {label: "homepage Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Manual PDF", name: "manual_pdf", widget: "file", default: "/uploads/" , media_library:"/uploads/", config:, multiple: true}
+          # - {label: "homepage Blurb", name: blurb, widget: object, fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Intro", name: intro, widget: object, fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Values", name: "values", widget: "object", fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
       - file: "pages/contact.md"
         label: "Contact Page"
         name: "contact"

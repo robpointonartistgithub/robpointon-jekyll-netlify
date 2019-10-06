@@ -1,26 +1,27 @@
+{% if page.imageUrl and page.imageUrl != '' %}
 <div class="hero-banner">
     <div class="hero-banner__inner"> 
       <div class="hero-banner__background hero-banner__background--video">
-          <video autoplay="autoplay" muted="muted" loop="loop" poster="{{ .imageUrl }}">
+          <video autoplay="autoplay" muted="muted" loop="loop" poster="{{ page.imageUrl }}">
               <!-- if Safari/Chrome--> 
-              <source class="video--mp4" src="{{ .video_mp4 }}" type="video/mp4">
+              <source class="video--mp4" src="{{ page.video_mp4 }}" type="video/mp4">
               <!-- if Firefox --> 
-              <source class="video--webm" src="{{ .video_webm }}" type="video/webm">
+              <source class="video--webm" src="{{ page.video_webm }}" type="video/webm">
           </video>
           <img src="{{ .imageUrl }}" alt="" class="hero-banner__background--mobile-image"/>
       </div>
       <style>video::-webkit-media-controls-start-playback-button {display:none !important;}</style> 
-
+{% endif %}
     <div class="hero-banner__content--wrapper">
         <div class="hero-banner__content--inner">
             <div class="hero-banner__content--text">
-                <h2 class="txt-xlarge">{{.title}}</h2>
-                {{ if .subtitle }}
-                    <p>{{.subtitle}}</p>
-                {{ end }}
-                {{ if .button_link }}
-                    <p class="btn-row--align__center"><a class="btn text-uppercase" href="{{.button_link}}"><i class="btn__icon icon--arrow-right"> </i><span class="btn__text">{{.button_text}}</span></a></p>
-                {{ end }}
+                <h2 class="txt-xlarge">{{page.title}}</h2>
+                {% if page.subtitle and page.subtitle != '' %}
+                    <p>{{ page.subtitle }}</p>
+                {% endif %}
+                {% if page.button_link and page.button_link != '' %}
+                    <p class="btn-row--align__center"><a class="btn text-uppercase" href="{{ page.button_link }}"><i class="btn__icon icon--arrow-right"> </i><span class="btn__text">{{ page.button_text }}</span></a></p>
+                {% endif %}
             </div>
         </div>
     </div>     
