@@ -1,0 +1,19 @@
+<div class="main">
+
+	<h2 class="center txt-xlarge section-title">Latest Work</h2>
+
+	<div class="gamma-container gamma-loading" id="gamma-container">
+		
+		<ul class="gamma-gallery">
+			{{ range first 20 (where .Data.Pages "Type" "post") }}
+
+				{{ .Render "painting-tile" }}
+
+			{{ end }}
+		</ul>
+
+		<div class="gamma-overlay"></div>
+
+	</div>
+
+</div><!--/main-->
