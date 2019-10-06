@@ -1,5 +1,43 @@
-<footer>
+{% include partials/newsletter-form.html %}
+<footer class="footer">
+	<div class="panel">
+		<div class="panel__wrapper">
+			<div class="footer__title">
+		        <h2 class="white center txt-xlarge section-title line-height-zero">Rob Pointon</h2>
+		        <p class="white center">Painting from life</p>
+		    </div>
+		    <div class="row">
+			    
+				<ul class="footer__list col s6 m4 l4">
+					<li><a href="/" class="footer-link">Home</a></li>
+					<li><a href="/about" class="link">About Rob</a></li>
+					<li><a href="/news" class="link">News</a></li>
+					<li><a href="/exhibitions" class="link">Exhibitions</a></li>
+				</ul>
+				
+				<ul class="footer__list col s6 m4 l4">
+					<li><a href="/gallery" class="link">Gallery</a></li>
+					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="/sales" class="link">Sales</a></li>
+					<li><a href="http://pointon-picture-library.myshopify.com/" class="link">Shop</a></li>
+				</ul>
 
-  <small>This project is maintained by <a href="https://www.danurbanowicz.com" rel="noopener">Dan Urbanowicz</a>. View the repo on <a href="https://github.com/danurbanowicz/jekyll-netlify-boilerplate" rel="noopener">Github</a></small>
+				<div class="col s12 m4 l4">
+					<h3 class="">Social media</h3>
+					<ul class="footer__list">
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+					</ul>
+				</div>
+				<p class="center txt-small">Copyright &copy; Rob Pointon <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+			</div>
+		</div>
+	</div>
 
 </footer>
+
+{% include partials/svg.html %}
+
+{% include partials/footer-scripts.html %}
