@@ -1,14 +1,5 @@
 ---
-layout: home
-permalink: /
-section: home
-intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
-title: Homepage title goes here...
+title: Homepage title goes here...(edited)
 subtitle: Homepage subtitle goes here...
 image: /assets/img/uploads/screenshot-editor.jpg
 button_text: button text goes here...
