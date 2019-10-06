@@ -1,7 +1,5 @@
 ---
-layout: home
-permalink: /
-title: Homepage title goes here...(edited)
+title: Homepage title goes here...(edited2)
 subtitle: Homepage subtitle goes here...
 image: /assets/img/uploads/screenshot-editor.jpg
 button_text: button text goes here...
