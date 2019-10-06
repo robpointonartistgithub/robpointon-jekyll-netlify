@@ -31,22 +31,24 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
     # PAGES
-  - name: "page"
-    label: "Page"
-    folder: "pages"
-    sort: "title:asc"
-    create: false
-    slug: "{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Permalink", name: "permalink", widget: "hidden"}
-      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+  # - name: "page"
+  #   label: "Page"
+  #   folder: "pages"
+  #   sort: "title:asc"
+  #   create: false
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+  #     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+  #     - {label: "Permalink", name: "permalink", widget: "hidden"}
+  #     - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
+  #     - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", required: false}
     #imported from hugo
+  - name: "pages"
+    label: "Pages"
     files:
-      - file: "index.md"
+      - file: "pages/index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -67,3 +69,34 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
+      - file: "pages/contact.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - label: Contact Entries
+            name: contact_entries
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
+              - label: Text
+                name: text
+                widget: text
+      - file: "pages/about.md"
+        label: "Values Page"
+        name: "values"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - label: Values
+            name: values
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: imageUrl, widget: image}
+
