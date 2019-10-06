@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Welcome
+subtitle: 
 permalink: /
 section: home
 intro_paragraph: >
