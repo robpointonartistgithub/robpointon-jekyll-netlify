@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: Homepage title goes here...(edited3)
+title: Homepage title goes here...(edited4)
 subtitle: Homepage subtitle goes here...
 image: /assets/img/uploads/screenshot-editor.jpg
 button_text: button text goes here...
