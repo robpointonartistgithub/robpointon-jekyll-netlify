@@ -45,8 +45,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Signed?", name: "signed", widget: "select", options: ["Signed", "Not signed"], default: ["Signed"]}
       - {label: "Framed?", name: "framed", widget: "select", options: ["Framed", "Not framed"], default: ["Framed"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
   # PAGES
   # - name: "page"
   #   label: "Page"
