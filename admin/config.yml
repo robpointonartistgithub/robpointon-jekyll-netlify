@@ -38,6 +38,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Price", name: "price", widget: "string"}
+      - {label: "Medium e.g. Oil on canvas, Pencil", name: "medium", widget: "string"}
+      - {label: "Size of painting eg. 61 x 50 cm", name: "size", widget: "string"}
+      - {label: "Signed?", name: "signed", widget: "select", options: ["Signed", "Not signed"], default: ["Signed"]}
+      - {label: "Framed?", name: "framed", widget: "select", options: ["Framed", "Not framed"], default: ["Framed"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
