@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Painting title
 image: /assets/img/uploads/10-16-sunset-over-the-corniche.jpg
 price: '2000'
