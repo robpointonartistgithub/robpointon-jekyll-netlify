@@ -161,7 +161,7 @@ var Gamma = (function() {
 		// default settings
 		defaults = {
 			// default value for masonry column count
-			columns : 4,
+			columns : 3,
 			// transition properties for the images in ms (transition to/from singleview)
 			speed : 300,
 			easing : 'ease',
