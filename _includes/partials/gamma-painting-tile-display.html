@@ -3,33 +3,9 @@
 	<h2 class="center txt-xlarge section-title">Latest Work</h2>
 
 	<div class="gamma-container gamma-loading" id="gamma-container">
-		<p>vsc s sc sc cs</p>
 		<ul class="gamma-gallery">
 			{% for painting in site.paintings limit:3 %}
-		        <li>
-		        	<p>dfddf</p>
-		          <a href="{{ post.url }}">{{ painting.title }}</a>
-		          <p>{{ painting.price }}</p>
-		          <p>{{ painting.sold }}</p>
-		          <p>{{ painting.medium }}</p>
-		          <p>{{ painting.size }}</p>
-		          <p>{{ painting.framed }}</p>
-		          <p>{{ painting.description }}</p>
-		        </li>
-		        <li>
-					<div data-alt="View full size version of {{ painting.title }}" data-description="<h3>{{ painting.title }}</h3><a href=&quot;Link&quot; class=&quot;gamma-link&quot;>View full post</a>" data-max-width="1300" data-max-height="1350">
-					  <div data-src="{{ painting.image }}" data-min-width="1300"></div>
-					  <div data-src="{{ painting.image }}" data-min-width="1000"></div>
-					  <div data-src="{{ painting.image }}" data-min-width="700"></div>
-					  <div data-src="{{ painting.image }}" data-min-width="300"></div>
-					  <div data-src="{{ painting.image }}" data-min-width="200"></div>
-					  <div data-src="{{ painting.image }}" data-min-width="140"></div>
-					  <div data-src="{{ painting.image }}"></div>
-					  <noscript>
-					    <img src="{{ painting.image }}" alt="View full size version of painting.title"/>
-					  </noscript>
-					</div>
-				</li>
+		        {% include partials/painting-tile.html %}
 		    {% endfor %}
 		</ul>
 
