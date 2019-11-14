@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Standing to throw - James Hake
 image: /assets/img/uploads/08-18-standing-to-throw-james-hake.jpg
 price: '210'

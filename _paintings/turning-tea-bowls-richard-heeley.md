@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Turning tea bowls - Richard Heeley
 image: /assets/img/uploads/08-18-decorating-ware-richard-heeley-.jpg
 price: '210'

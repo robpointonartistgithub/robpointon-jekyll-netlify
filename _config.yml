@@ -67,6 +67,14 @@ kramdown:
   # Prevent IDs from being added to h1-h6 tags
   auto_ids: false
 
+
+
+# Plugins (List taken from Philthornley.co.uk)
+# - jekyll_picture_tag https://github.com/robwierzbowski/jekyll-picture-tag
+#plugins:
+#  - jekyll_picture_tag 
+
+
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
 

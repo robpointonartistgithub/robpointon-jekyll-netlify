@@ -18,6 +18,31 @@ layout: default
     
       <div class="painting-page__content-wrapper">
 
+        {% if page.price and page.sold == false %}
+          <p>£{{ page.price }}</p>
+        {% endif %}
+
+        {% if page.sold %}
+          <p>SOLD</p>
+        {% endif %}
+
+        {% if page.medium %}
+          <p>{{ page.medium }}</p>
+        {% endif %}
+
+        {% if page.size %}
+          <p>{{ page.size }}</p>
+        {% endif %}
+
+        {% if page.signed == "Signed" %}
+          <p>{{ page.signed }}</p>
+        {% endif %}
+
+        {% if page.framed == "Framed" %}
+          <p>{{ page.framed }}</p>
+        {% endif %}
+
+
         {{ content }}
 
       </div>

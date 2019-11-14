@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Potter at the wheel
 image: /assets/img/uploads/06-18-potter-at-the-wheel.jpg
 price: '210'

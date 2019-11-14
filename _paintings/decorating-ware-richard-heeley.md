@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: painting
 title: Decorating ware - Richard Heeley
 image: /assets/img/uploads/08-18-turning-teabowls-richard-heeley.jpg
 price: '210'
-sold: true
+sold: false
 medium: Oil on board
 size: 50x50cm
 signed: Signed

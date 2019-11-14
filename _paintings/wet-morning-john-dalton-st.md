@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Wet morning John Dalton St
 image: /assets/img/uploads/02-19-wet-morning-john-dalton-st-40cmx40cm-£1400.jpg
 price: '210'

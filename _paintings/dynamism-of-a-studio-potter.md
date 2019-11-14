@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: painting
 title: Dynamism of a studio potter
 image: /assets/img/uploads/01-18-dynamism-of-a-studio-potter.jpg
 price: '99'
