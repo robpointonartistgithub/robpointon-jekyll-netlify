@@ -1,5 +1,16 @@
 #Readme
 
+
+
+*Build Jekyll*
+
+bundle exec jekyll serve
+
+*Serve Jekyll*
+bundle exec jekyll serve
+
+
+
 ##Edit the number of columns for Gamma display
 
 js > custom > gamma.js
