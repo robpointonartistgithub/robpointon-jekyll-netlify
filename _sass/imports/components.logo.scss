@@ -1,16 +1,21 @@
-
 .logo {
-	margin-top: 25px;
+	height: 76px;
+	transition: 0.5s ease-in-out height;
+
+}
+
+.logo__link {
+	max-width: 106px;
 }
 
 @media #{$small-and-down} {
-	.logo img { 
-		
+	.logo {
+	    height: 45px;
 	}
 }
 
-@media #{$medium-only} {
-	.logo img { 
-		
+@media #{$medium-and-up} {
+	.logo { 
+		margin-bottom: 20px;
 	}
 }

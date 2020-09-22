@@ -45,6 +45,7 @@
     }
     .hero-banner__background--mobile-image {
         display: inline-block;
+        max-width: fit-content;
     }
 }
 
@@ -86,6 +87,7 @@
     text-align: center;
     color: #fff;
     padding: 4rem 0;
+    min-height: inherit;
 }
 
 .hero-banner__content--text {
@@ -116,6 +118,3 @@ user agent stylesheet
 video {
     object-fit: contain;
 }
-
-
-
