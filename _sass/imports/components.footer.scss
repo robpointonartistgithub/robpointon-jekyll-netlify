@@ -19,6 +19,10 @@
 	@include rem(font-size, 1.2rem);
 }
 
+.footer__list {
+	margin-bottom: 30px;
+}
+
 .footer__list li {
 	list-style: none;
 }

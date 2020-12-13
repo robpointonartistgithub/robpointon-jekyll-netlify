@@ -23,14 +23,12 @@
 				</ul>
 
 				<div class="col s12 m4 l4">
-					<h3 class="">Social media</h3>
-					<ul class="footer__list">
-						{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-						{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-						{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-						{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-					</ul>
+					{% include partials/social-icons.html %}
 				</div>
+				
+			</div>
+
+			<div class="row">
 				<p class="center txt-small">Copyright &copy; Rob Pointon <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
 			</div>
 		</div>
@@ -38,6 +36,6 @@
 
 </footer>
 
-{% include partials/svg.html %}
+
 
 {% include partials/footer-scripts.html %}
