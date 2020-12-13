@@ -3,3 +3,52 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.content-wrapper p + h2 {
+    margin-top: 70px;
+}
+
+.content-wrapper p, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper ul, .content-wrapper ol, .content-wrapper figure, .content-wrapper pre, .content-wrapper .time, .blog__list, blockquote {
+    margin-bottom:1em;
+}
+
+.content-wrapper ul p {
+    /*Fix for bullet padding*/
+    max-width: 100%;
+}
+
+
+.content-wrapper .time {
+    display: block;
+    font-style: italic;
+}
+
+.content-wrapper a:link, .content-wrapper a:visited {
+    color: #0277BD;
+}
+
+.content-wrapper a:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+img {
+    max-width: 100%;
+}
+
+
+
+@media #{$medium-and-down} {
+    
+    .content-wrapper {
+        width: 90%;
+    }
+
+    .content-wrapper p, .content-wrapper h2, .content-wrapper h3, .content-wrapper ul, .content-wrapper ol, .content-wrapper figure, .content-wrapper .time, .content-wrapper pre, .blog__list, blockquote {
+       
+    }
+}
+
+@media #{$small-and-down} {
+    
+}
