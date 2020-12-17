@@ -3,7 +3,7 @@
 .newsletter {
 	background: $grey-color-light;
 	padding: 6%;
-	margin-top: 2rem;
+	margin-top: 8rem;
 }
 
 .newsletter__content {
@@ -15,24 +15,4 @@
 
 .newsletter p {
 	margin-bottom: 1em;
-}
-
-.newsletter__fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.newsletter__fieldcollection {
-	
-}
-
-.newsletter__fieldset label {
-	display: block;
-	font-size: 1.5rem;
-	font-weight: 300;
-}
-
-.newsletter__fieldset input {
-	padding: 0.5rem;
 }
