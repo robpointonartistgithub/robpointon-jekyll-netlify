@@ -12,4 +12,12 @@ intro_paragraph: |-
   flagged, will display a CAPTCHA challenge to the user.
 ---
 
-**Send us a message**
+If you would like to contact us please either complete the enquiry form below or reach us by any of the following methods.
+
+## Telephone:
+For painting enquires or to arrange a viewing contact Karen on 
+
+<a href="tel:07734905327">07734 905 327</a>
+
+## Email:
+info@robpointon.co.uk
