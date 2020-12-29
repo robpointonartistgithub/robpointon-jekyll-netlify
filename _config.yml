@@ -57,6 +57,8 @@ defaults:
 collections:
   paintings:
     output: true
+  news:
+      output: true
 
     
 # Build settings
