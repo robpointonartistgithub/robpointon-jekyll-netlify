@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+
+<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
+
+<div class="content-wrapper written-content">
+{{ content }}
+</div>
+
+{% if page.previous.url %}
+<nav aria-label="Adjacent Posts" class="upnext">
+  <div class="upnext__container center">
+    <div>
+      <h2 class="txt-small brandfont">More news</h2>
+      <a href="{{page.previous.url}}" rel="prev" class="txt-xlarge brandfont">{{page.previous.title}}<br/><span class="txt-normal">Read more</span></a>
+    </div>
+  </div>
+</nav>
+{% endif %}

@@ -36,7 +36,7 @@ h1, .txt-xlarge {
 	@include rem(font-size, $font-size-large);
 	font-weight: $light-weight;
 	@include rem(line-height, 5.5rem);
-	@include rem(margin, 0 0 0.8rem); 
+	@include rem(margin, 0 auto 0.8rem); 
 	color: $near-black;
 }
 
@@ -61,7 +61,7 @@ h1, .txt-xlarge {
 } 
 
 .txt-small { 
-	@include rem(font-size, 1.4rem);
+	@include rem(font-size, $font-size-small);
 } 
 
 .txt-xsmall { 

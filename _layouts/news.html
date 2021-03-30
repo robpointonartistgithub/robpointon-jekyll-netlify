@@ -2,23 +2,36 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
 
 
+<div class="content-wrapper written-content">
 {{ content }}
-
 <section>
 
-  <h3>Posts</h3>
 
   <ul>
-    {% for news in site.news %}
-    {% assign author = site.data.authors[post.author] %}
+    {% for news in site.news reversed %}
       <li>
-        <h4><a href="{{ news.url }}">{{ news.title }}</a></h4>
+        {% assign foundImage = 0 %}
+      {% assign images = news.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+        <h2><a href="{{ news.url }}">{{ news.title }}</a></h2>
+        <p>{{ news.excerpt  | strip_html | truncatewords:75}}<p>
+        <p>{{ news.date }}</p>
       
       </li>
     {% endfor %}
   </ul>
 
 </section>
+</div>
