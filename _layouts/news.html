@@ -7,9 +7,58 @@ layout: default
 
 <div class="content-wrapper written-content">
 {{ content }}
+{% assign sorted = site.news | sort: 'date' | reverse  %}
+
+{% for news in sorted limit: 1 %}
+<div class="txt-xlarge">
+          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+        </div>
+        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+
+{% endfor %}
+
+<h1>And the rest</h1>
+
+{% assign sorted = site.news | sort: 'date' | reverse  %}
+
+{% for news in sorted offset: 1 %}
+<div class="txt-xlarge">
+          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+        </div>
+        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+
+{% endfor %}
+
+<h1>End</h1>
+
 <section>
+<div class="content__block next-up">
+      <h2 class="txt-small">Latest gibberish</h2>
+      {% for news in site.news reversed limit:1 %}
+        <div class="txt-xlarge">
+          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+        </div>
+        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+      {% endfor %}
+    </div>
+    
+    <div class="next-up">
+      <h2 class="txt-small">Older mumblings</h2> 
+      
+      {% for news in site.news offset:1 %}
 
+          <div class="content__block">
+            <h3 class="txt-xlarge"><a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a></h3>
+              <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+          </div>
+          <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
 
+      {% endfor %}
+    </div>
+<h1>BREAK</h1>
   <ul>
     {% for news in site.news reversed %}
       <li>
@@ -27,7 +76,7 @@ layout: default
       {% endfor %}
         <h2><a href="{{ news.url }}">{{ news.title }}</a></h2>
         <p>{{ news.excerpt  | strip_html | truncatewords:75}}<p>
-        <p>{{ news.date }}</p>
+        <p><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
       
       </li>
     {% endfor %}
