@@ -2,85 +2,41 @@
 layout: default
 ---
 
-<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
-
+{% include partials/slim-banner.html %}
 
 <div class="content-wrapper written-content">
+
 {{ content }}
-{% assign sorted = site.news | sort: 'date' | reverse  %}
 
-{% for news in sorted limit: 1 %}
-<div class="txt-xlarge">
-          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
-        </div>
-        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-
-{% endfor %}
-
-<h1>And the rest</h1>
-
-{% assign sorted = site.news | sort: 'date' | reverse  %}
-
-{% for news in sorted offset: 1 %}
-<div class="txt-xlarge">
-          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
-        </div>
-        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-
-{% endfor %}
-
-<h1>End</h1>
-
-<section>
-<div class="content__block next-up">
-      <h2 class="txt-small">Latest gibberish</h2>
-      {% for news in site.news reversed limit:1 %}
-        <div class="txt-xlarge">
-          <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
-        </div>
-        <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-        <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-      {% endfor %}
-    </div>
-    
-    <div class="next-up">
-      <h2 class="txt-small">Older mumblings</h2> 
-      
-      {% for news in site.news offset:1 %}
-
-          <div class="content__block">
-            <h3 class="txt-xlarge"><a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a></h3>
-              <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-          </div>
-          <p class="txt-small">Posted <time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-
-      {% endfor %}
-    </div>
-<h1>BREAK</h1>
+<section class="news-list">
+  {% assign sorted = site.news | sort: 'date' | reverse  %}
   <ul>
-    {% for news in site.news reversed %}
-      <li>
-        {% assign foundImage = 0 %}
-      {% assign images = news.content | split:"<img " %}
-      {% for image in images %}
-        {% if image contains 'src' %}
-
-            {% if foundImage == 0 %}
-                {% assign html = image | split:"/>" | first %}
-                <img {{ html }} />
-                {% assign foundImage = 1 %}
-            {% endif %}
-        {% endif %}
+    <li>
+      {% for news in sorted limit: 1 %}
+      <h2 class="txt-xlarge">
+        <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+      </h2>
+      <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
       {% endfor %}
-        <h2><a href="{{ news.url }}">{{ news.title }}</a></h2>
-        <p>{{ news.excerpt  | strip_html | truncatewords:75}}<p>
-        <p><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-      
-      </li>
-    {% endfor %}
-  </ul>
+    </li>
+
+
+  
+
+  {% for news in sorted offset: 1 %}
+  <li>
+    <h2 class="txt-xlarge">
+      <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+    </h2>
+      <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
+  </li>
+{% endfor %}
+</ul>
 
 </section>
+
 </div>

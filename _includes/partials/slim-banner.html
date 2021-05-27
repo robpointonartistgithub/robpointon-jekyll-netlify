@@ -1,0 +1,16 @@
+<div class="slim-banner">
+  <div class="slim-banner__inner"> 
+    <div class="slim-banner__background"  style="background-image:url('/assets/img/static/backgrounds/news-listing-bg.jpg')">
+    </div>
+    <div class="slim-banner__panel">
+      <div class="slim-banner__panel--inner">
+        <div class="slim-banner__content--text">
+          <h1 class="txt-xlarge">{{page.title}}</h1>
+          {% if page.subtitle and page.subtitle != '' %}
+            <p>{{ page.subtitle }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>     
+  </div>
+</div>

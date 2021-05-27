@@ -1,0 +1,33 @@
+.news-list {
+	max-width: 72.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.news-list ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+.news-list li {
+    margin: 0 0 7.4rem;
+}
+
+.news-list li a:link {
+	color: #111;
+}
+
+.news-list h2.txt-xlarge {
+	margin: 0 0 1rem;
+}
+
+.news-list__link {
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+
+
