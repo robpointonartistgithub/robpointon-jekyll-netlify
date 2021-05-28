@@ -2,7 +2,7 @@
 layout: news-story
 title: Royal Gala Dinner celebrating the conservation of The Painted Hall
 author: phil
-date: '2020-07-03 12:00:00'
+date: 2019-08-14T11:00:00.000Z
 categories: misc
 ---
 
