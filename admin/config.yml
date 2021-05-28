@@ -31,7 +31,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
   - name: "painting"
-    label: "Painting" # Used in the UI, ie.: "New Post"
+    label: "Paintings" # Used in the UI, ie.: "New Post"
     folder: "_paintings" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     sort: "date:desc" # Default is title:asc
