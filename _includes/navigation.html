@@ -10,15 +10,15 @@
 	</button>
 	<div class="container-nav__links">
 		<ul class="nav__links" hidden>
-			<li><a href="/about" {% if page.url == "/about/" %} class="current" {% endif %}>About</a></li>
-			<li><a href="/exhibitions" {%  if page.url == "/exhibitions/" %} class="current" {% endif %}>Exhibitions</a></li>
-			<li><a href="/gallery/" {%  if page.url == "/gallery/" %} class="current" {% endif %}>Gallery</a></li>
-			<li><a href="/news" {%  if page.url == "/news/" %} class="current" {% endif %}>News</a></li>
+			<li><a href="/about" {% if page.url contains "/about" %} class="current" {% endif %}>About</a></li>
+			<li><a href="/exhibitions-listing" {%  if page.url contains "/exhibitions-listing" %} class="current" {% endif %}>Exhibitions</a></li>
+			<li><a href="/gallery/" {%  if page.url contains "/gallery" %} class="current" {% endif %}>Gallery</a></li>
+			<li><a href="/news" {%  if page.url contains "/news" %} class="current" {% endif %}>News</a></li>
 		</ul>
 
 		<ul class="secondary-nav__links" hidden>
-			<li><a href="/contact" {%  if page.url == "/contact/" %} class="current" {% endif %} >Contact</a></li>
-			<li><a href="/purchasing-procedure" {%  if page.url == "/purchasing-procedure/" %} class="current" {% endif %}>Sales</a></li>
+			<li><a href="/contact" {%  if page.url contains "/contact" %} class="current" {% endif %} >Contact</a></li>
+			<li><a href="/purchasing-procedure" {%  if page.url contains "/purchasing-procedure" %} class="current" {% endif %}>Sales</a></li>
 		</ul>
   	</div>
 </nav>

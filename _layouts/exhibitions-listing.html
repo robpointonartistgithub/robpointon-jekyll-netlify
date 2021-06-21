@@ -2,23 +2,23 @@
 layout: default
 ---
 
-{% include partials/slim-banner.html bgimage="news-listing-bg.jpg" %}
+{% include partials/slim-banner.html bgimage="exhibitions-listing-bg.jpg" %}
 
 <div class="content-wrapper written-content">
 
 {{ content }}
 
 <section class="news-list">
-  {% assign sorted = site.news | sort: 'date' | reverse  %}
+  {% assign sorted = site.exhibitions | sort: 'date' | reverse  %}
   <ul>
     <li>
-      {% for news in sorted limit: 1 %}
+      {% for exhibitions in sorted limit: 1 %}
       <h2 class="txt-xlarge">
-        <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
+        <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
       </h2>
-      <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-      <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
+      <p class="txt-small"><time datetime="{{ exhibitions.date | date_to_string }}" itemprop="datePublished">{{ exhibitions.date | date_to_string }}</time></p>
+      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
       {% endfor %}
     </li>
 

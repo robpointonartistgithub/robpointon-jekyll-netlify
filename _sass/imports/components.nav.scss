@@ -53,6 +53,10 @@
   }
 }
 
+.nav__links a.current, .secondary-nav__links a.current {
+  font-weight: 500;
+}
+
 
 
 @media #{$small-and-down} {
