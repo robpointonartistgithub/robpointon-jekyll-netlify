@@ -7,5 +7,5 @@ imageUrl: /assets/img/uploads/enchantent-of-painting.jpg
 button_text: View the gallery
 button_link: /gallery/
 video_webm: /assets/video/enchantment.webm
-video_mp4: /assets/video/enchantment.m4v
+video_mp4: /assets/video/enchantment.mp4
 ---
