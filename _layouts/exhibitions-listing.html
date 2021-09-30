@@ -17,7 +17,7 @@ layout: default
       <h2 class="txt-xlarge">
         <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
       </h2>
-      <p class="txt-small"><time datetime="{{ exhibitions.date | date_to_string }}" itemprop="datePublished">{{ exhibitions.date | date_to_string }}</time></p>
+      <p class="txt-small">{{ exhibitions.dateOfShow }}</p>
       <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
       <a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a>
       {% endfor %}
@@ -34,12 +34,12 @@ layout: default
     <li>
   {% for exhibitions in sorted offset: 1 %}
   <li>
-    <h2 class="txt-xlarge">
+    <h2 class="txt-xlarge center">
       <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
     </h2>
-      <p class="txt-small"><time datetime="{{ exhibitions.date | date_to_string }}" itemprop="datePublished">{{ exhibitions.date | date_to_string }}</time></p>
-      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-      <a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a>
+      <p class="txt-small center">{{ exhibitions.dateOfShow }}</p>
+      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 180 }}{% endif %}</p>
+      <p class="center"><a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a></p>
   </li>
 {% endfor %}
 </ul>
