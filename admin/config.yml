@@ -57,6 +57,20 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "exhibitions"
+    label: "Exhibition" # Used in the UI, ie.: "New Post"
+    folder: "_exhibitions" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    sort: "date:desc" # Default is title:asc
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "exhibition"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Dates of exhibition e.g. Sunday 20th June 2021 - Wednesday 14th July 2021", name: "dateOfShow", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description of the exhibition", name: "body", widget: "markdown", required: false}
+      - {label: "Exhibition address", name: "exhibitionAddress", widget: "markdown", required: false}
+      - {label: "Google map of Exhibition address", name: "googlemap", widget: "markdown", required: false}
+       
   # PAGES
   # - name: "page"
   #   label: "Page"
