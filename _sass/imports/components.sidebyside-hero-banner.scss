@@ -19,5 +19,24 @@
 }
 
 .sidebeside-hero-banner__image {
-    
+    line-height: 0;
+}
+
+
+@media #{$small-and-down} {
+	.col.sidebeside-hero-banner__image {
+		padding: 0;
+    }
+}
+
+@media #{$medium-only} {
+	.col.sidebeside-hero-banner__image {
+		padding: 3% 0 3% 3%;
+    }
+}
+
+@media #{$large-and-up} {
+	.col.sidebeside-hero-banner__image {
+		padding: 0 .75rem 0 0;
+    }
 }

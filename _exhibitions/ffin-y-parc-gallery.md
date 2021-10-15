@@ -5,7 +5,9 @@ date: 2014-01-01T14:30:02.940Z
 dateOfShow: Sunday 20th June 2021 - Wednesday 14th July 2021
 ---
 
-Ffin y Parc Gallery has fast grown to be one of the most successful art galleries in Wales. This shall be my first exhibition with the gallery after meeting the owner Ralph at Manchester Art Fair in 2019. Ralph was drawn to my depiction of movement and unusual perspectives in the urban landscape and this show shall bring that approach to towns and resorts in North Wales.
+Curabitur viverra convallis bibendum. Nunc lorem mi, placerat at ullamcorper sit amet, ultrices eu diam. Aliquam molestie accumsan orci interdum congue. Quisque maximus euismod nibh in condimentum. Etiam ullamcorper justo nec neque suscipit aliquam. Integer efficitur, nisi vel facilisis placerat, mauris orci faucibus felis, eget commodo magna orci vitae mauris. Pellentesque nisi purus, fringilla non massa quis, convallis eleifend purus. Nam risus nunc, bibendum eget tellus interdum, luctus ornare nunc. Nam gravida nunc nibh, non volutpat sem vulputate sed. Donec sit amet neque velit.
+
+Vestibulum tempus molestie sapien, at hendrerit odio convallis ac. Quisque felis enim, congue eu facilisis at, interdum eu tellus. Etiam malesuada, felis eu convallis ullamcorper, sem nulla faucibus eros, et placerat ex odio id velit. Nulla pretium varius odio, quis hendrerit enim pretium sed. Pellentesque vel nisl nibh. Maecenas eleifend at quam ut cursus. Sed tempus accumsan odio sit amet semper. Nam placerat dolor vel orci vehicula, sit amet imperdiet justo imperdiet. Donec pharetra lectus ac ante molestie, nec ultrices leo iaculis.
 
 
 ![](/assets/img/uploads/newsletter-jan2014.jpg)

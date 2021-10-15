@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include partials/slim-banner.html bgimage="exhibitions-listing-bg.jpg" %}
+<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
 
 <div class="main">
 
@@ -12,37 +12,43 @@ layout: default
 
 {% for exhibitions in sorted limit: 1 %}
 
-<div class="main-ehibition-listing">
-  <div class="main-ehibition-listing__information">
+<div class="main-ehibition-listing sidebeside-hero-banner row">
+  <div class="sidebeside-hero-banner__information col s12 m7 l5 right">
+    <div class="sidebeside-hero-banner__informationcontent">
       <h2 class="txt-xlarge">
         <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
       </h2>
       <p class="txt-small">{{ exhibitions.dateOfShow }}</p>
       <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
       <a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a>
-      {% endfor %}
+    </div>
   </div>
-  <div class="main-ehibition-listing__image">
-    <img src="assets/img/uploads/website-banner-ffin-y-parc.jpg">
+  <div class="sidebeside-hero-banner__image col s12 m5 l7">
+    <img src="https://assets.artworkarchive.com/image/upload/t_jpg_large/v1/user_28358/07_21_Wet_day_Stanhoe_Village_Pond_40x40cm_1400_yflzjj">
   </div>
 </div>
+{% endfor %}
 
 
   
-<section class="content-wrapper news-list">
+<section class="exhibitions-list">
   <ul>
-    <li>
   {% for exhibitions in sorted offset: 1 %}
-  <li>
-    <h2 class="txt-xlarge center">
-      <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
-    </h2>
-      <p class="txt-small center">{{ exhibitions.dateOfShow }}</p>
-      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 180 }}{% endif %}</p>
-      <p class="center"><a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a></p>
-  </li>
-{% endfor %}
-</ul>
+    <li class="row">
+      <div class="col s12 m3 l3">
+        <img src="http://www.robpointon.co.uk/wp-content/uploads/2021/08/HCMR-Life-Guard-on-Marquis-36x24in.jpg">
+      </div>
+      <div class="exhibitions-list__information col s12 m9 l9">
+      <h2 class="txt-xlarge">
+        <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
+      </h2>
+        <p class="txt-small">{{ exhibitions.dateOfShow }}</p>
+        <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 180 }}{% endif %}</p>
+        <p class=""><a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a></p>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
 
 </section>
 

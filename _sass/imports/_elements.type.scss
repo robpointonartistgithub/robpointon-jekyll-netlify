@@ -32,6 +32,20 @@ h2,h3,h4,h5,h6 {
 	@include rem(margin, 0 0 0.7272rem);
 }
 
+h1 { 
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+.txt-huge { 
+	@include rem(font-size, $font-size-huge);
+	font-weight: $light-weight;
+	@include rem(line-height, 5.5rem);
+	@include rem(margin, 0 auto 0.8rem); 
+	color: $near-black;
+}
+
 h1, .txt-xlarge { 
 	@include rem(font-size, $font-size-large);
 	font-weight: $light-weight;
@@ -106,8 +120,6 @@ blockquote {
 		@include rem(line-height, 5.5rem / 1.2);
 	}
 
-
-
 	.txt-large { 
 		@include rem(font-size, $font-size-medium / 1.2);
 		@include rem(line-height, 3.6rem / 1.2 0 ); 
@@ -121,6 +133,38 @@ blockquote {
 
 	.txt-normal { 
 		@include rem(font-size, $font-size-normal / 1.2);
+	} 
+}
+
+@media #{$medium-only} {
+	body {
+		@include rem(font-size, $font-size-normal / 1.1);
+		@include rem(line-height, 3.3rem / 1.1);
+	}
+
+	h2,h3,h4,h5,h6 { 
+		@include rem(font-size, $font-size-medium / 1.1);
+		@include rem(line-height, 3.6rem/1.1 0); 
+	}
+
+	h1, .txt-xlarge { 
+		@include rem(font-size, $font-size-large / 1.5);
+		@include rem(line-height, 5.5rem / 1.1);
+	}
+
+	.txt-large { 
+		@include rem(font-size, $font-size-medium / 1.1);
+		@include rem(line-height, 3.6rem / 1.2 0 ); 
+	} 
+
+
+	.txt-medium { 
+		@include rem(font-size, 2.4rem / 1.1);
+		@include rem(line-height, 3.6rem / 1.1 0); 
+	} 
+
+	.txt-normal { 
+		@include rem(font-size, $font-size-normal / 1.1);
 	} 
 }
 
