@@ -12,7 +12,9 @@
           {% if page.subtitle and page.subtitle != '' %}
             <p>{{ page.subtitle }}</p>
           {% endif %}
-          <p><a class="btn btn--type__secondary" href="#viewcollection"><span class="btn__text">View collection</span></a></p>
+          {% if page.gallery and page.gallery != '' %}
+            <p><a class="btn btn--type__secondary" href="#viewcollection"><span class="btn__text">View collection</span></a></p>
+          {% endif %}
         </div>
       </div>
     </div>     

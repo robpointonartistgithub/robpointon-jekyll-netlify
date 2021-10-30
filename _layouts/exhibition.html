@@ -10,15 +10,30 @@ layout: default
 	<div class="row">
 		<div class="col s12 m4 l4">
 			<div class="exhibition__dateandtime">
-				<div class="exhibition__dates">10 - 18 November</div>
-				<div class="exhibition__opentimes">10am to 5pm Mon - Sat<br/>11am to 4pm Sun</div>
+				{% if page.dateOfShow and page.dateOfShow != '' %}
+                    <div class="exhibition__dates">{{ page.dateOfShow }}</div>
+                {% endif %}
+
+                {% if page.openTimes and page.openTimes != '' %}
+                    <div class="exhibition__opentimes">{{ page.openTimes }}</div>
+                {% endif %}
 			</div>
 			<div class="exhibition__location">
-				<div class="exhibition__locationname"><p>Mall Galleries</p></div>
-				<div class="exhibition__locationaddress">The Mall<br/>London SW1</div>
-				<div class="exhibition__locationmap"><a href="#map">View on Google Maps</a></div>
+				{% if page.locationName and page.locationName != '' %}
+                    <div class="exhibition__locationname"><p>{{ page.locationName }}</p></div>
+                {% endif %}
+
+                {% if page.locationAddress and page.locationAddress != '' %}
+                    <div class="exhibition__locationaddress">{{ page.locationAddress }}</div>
+                {% endif %}
+
+                {% if page.locationMapLink and page.locationMapLink != '' %}
+                    <div class="exhibition__locationmap"><a href="{{ page.locationMapLink }}">View on Google Maps</a></div>
+                {% endif %}
 			</div>
-			<div class="exhibition__addmissiondetail">Admission free</div>
+			{% if page.addmissionDetail and page.addmissionDetail != '' %}
+                <div class="exhibition__addmissiondetail">{{ page.addmissionDetail }}</div>
+            {% endif %}
 		</div>
 
 		<div class="col s12 m8 l8">
@@ -26,8 +41,14 @@ layout: default
 
 		</div>
 	</div>
-	<div id="viewcollection" class="row">
-		<div id="aa_embed_manchester" style="clear: both;"></div>
+
+	{% if page.gallery and page.gallery != '' %}
+                <div id="viewcollection" class="row">
+                	{{ page.gallery }}
+                </div>
+    {% endif %}	
+	
+	<div id="aa_embed_manchester" style="clear: both;"></div>
 	<script type="text/javascript">
 	  (function() {
 	    var d = document, s = d.createElement('script');
@@ -37,7 +58,7 @@ layout: default
 	  })();
 	</script>
 	<noscript>Please enable JavaScript to view the artwork.</noscript>
-	</div>
+
 </div>
 
 {% if page.previous.url %}
