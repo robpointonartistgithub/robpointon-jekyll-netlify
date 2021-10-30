@@ -1,0 +1,20 @@
+<div class="deep-banner">
+  <div class="deep-banner__inner"> 
+    <div class="deep-banner__background"  style="background-image:url('/assets/img/static/backgrounds/{{include.bgimage | default: 'default-slim-banner-bg.jpg'}}')">
+    </div>
+    <div class="deep-banner__panel">
+      <div class="deep-banner__panel--inner">
+        <div class="deep-banner__content--text">
+          <h1 class="txt-xlarge">{{page.title}}</h1>
+          {% if page.subtitle and page.subtitle != '' %}
+            <p>{{ page.subtitle }}</p>
+          {% endif %}
+          {% if page.subtitle and page.subtitle != '' %}
+            <p>{{ page.subtitle }}</p>
+          {% endif %}
+          <p><a class="btn btn--type__secondary" href="#viewcollection"><span class="btn__text">View collection</span></a></p>
+        </div>
+      </div>
+    </div>     
+  </div>
+</div>
