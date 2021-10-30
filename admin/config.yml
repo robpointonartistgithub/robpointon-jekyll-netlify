@@ -66,6 +66,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "exhibition"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Large banner image min-width 1200px", name: "bannerImageLarge", widget: "image"}
+      - {label: "Small banner image max-width 300px", name: "bannerImageSmall", widget: "image"}
       - {label: "Dates of exhibition e.g. 10 - 18 November 2021", name: "dateOfShow", widget: "string"}
       - {label: "Opening times e.g. 10am to 5pm Mon - Sat<br/>11am to 4pm Sun", name: "openTimes", widget: "string"}
       - {label: "Location name e.g. Mall Galleries", name: "locationName", widget: "string"}
