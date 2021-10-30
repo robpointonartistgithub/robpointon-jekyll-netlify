@@ -1,9 +1,9 @@
 ---
 layout: exhibition
 date: 2014-01-01T14:30:02.940Z
-title: Ffin-y-Parc Gallery
-bannerImageLarge: /assets/img/uploads/exhibition_large_example.jpeg
-bannerImageSmall: /assets/img/uploads/exhibition_small_example.jpeg
+title: London exhibition
+bannerImageLarge: /assets/img/uploads/london-exhibition-large.jpg
+bannerImageSmall: /assets/img/uploads/london-exhibition-small.jpg
 dateOfShow: 10 - 18 November 2021
 openTimes: 10am to 5pm Mon - Sat<br/>11am to 4pm Sun
 locationName: Mall Galleries

@@ -18,13 +18,14 @@ layout: default
       <h2 class="txt-xlarge">
         <a href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">{{ exhibitions.title }}</a>
       </h2>
-      <p class="txt-small">{{ exhibitions.dateOfShow }}</p>
-      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <p>{{ exhibitions.dateOfShow }}</p>
+      <p>{{ exhibitions.locationName }}</p>
+      <p>{% if exhibitions.description %}{{ exhibitions.description }}{% else %}{{ exhibitions.content | strip_html | strip_newlines | truncate: 220 }}{% endif %}</p>
       <a class="news-list__link" href="{{ exhibitions.url }}" title="{{ exhibitions.title }}">Read more<span class="accessibility-text"> about {{ exhibitions.title }}</span></a>
     </div>
   </div>
   <div class="sidebeside-hero-banner__image col s12 m5 l7">
-    <img src="https://assets.artworkarchive.com/image/upload/t_jpg_large/v1/user_28358/07_21_Wet_day_Stanhoe_Village_Pond_40x40cm_1400_yflzjj">
+    <img src="{{ exhibitions.bannerImageLarge }}">
   </div>
 </div>
 {% endfor %}
@@ -36,7 +37,7 @@ layout: default
   {% for exhibitions in sorted offset: 1 %}
     <li class="row">
       <div class="col s12 m3 l3">
-        <img src="http://www.robpointon.co.uk/wp-content/uploads/2021/08/HCMR-Life-Guard-on-Marquis-36x24in.jpg">
+        <img src="{{ exhibitions.bannerImageSmall }}">
       </div>
       <div class="exhibitions-list__information col s12 m9 l9">
       <h2 class="txt-xlarge">
