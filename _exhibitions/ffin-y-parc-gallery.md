@@ -11,12 +11,12 @@ locationAddress: The Mall<br/>London SW1
 locationMapLink: https://g.page/mall-galleries-sw1?share
 addmissionDetail: Admission free
 gallery: >-
-  <div id="aa_embed_manchester" style="clear: both;"></div>
+  <div id="aa_embed_london" style="clear: both;"></div>
   	<script type="text/javascript">
   	  (function() {
   	    var d = document, s = d.createElement('script');
   	    s.type = "text/javascript"; s.async = true;
-  	    s.src = "https://www.artworkarchive.com/profile/rob-pointon/collection/manchester/embed_js.js";
+  	    s.src = "https://www.artworkarchive.com/profile/rob-pointon/collection/london/embed_js.js";
   	    (d.head || d.body).appendChild(s);
   	  })();
   	</script>
