@@ -56,8 +56,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "news-story"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Hide date", name: "showdate", widget: "boolean", default: true, required: true}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Body wody", name: "body", widget: "markdown", required: false}
   - name: "exhibitions"
     label: "Exhibition" # Used in the UI, ie.: "New Post"
     folder: "_exhibitions" # The path to the folder where the documents are stored
