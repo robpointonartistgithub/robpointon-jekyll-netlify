@@ -16,9 +16,9 @@ layout: default
       <h2 class="txt-xlarge">
         <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
       </h2>
-      
+      {% if news.showdate == true %}
         <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
-      
+      {% endif %}
       <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
       <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
       {% endfor %}
@@ -33,7 +33,7 @@ layout: default
       <a href="{{ news.url }}" title="{{ news.title }}">{{ news.title }}</a>
     </h2>
       {% if news.showdate == true %}
-      <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
+        <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
       {% endif %}
       <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
       <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
