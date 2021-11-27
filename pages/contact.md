@@ -12,12 +12,6 @@ intro_paragraph: |-
   flagged, will display a CAPTCHA challenge to the user.
 ---
 
-If you would like to contact us please either complete the enquiry form below or reach us by any of the following methods.
+To arrange viewings at our home studio based in Rode Heath, South Cheshire please email us using info@robpointon.co.uk or telephone <a href="tel:07734905327">07734 905 327</a> and you will speak to Rob or Karen, who will be happy to discuss arrangements and answer any questions.
 
-## Telephone:
-For painting enquires or to arrange a viewing contact Karen on 
-
-<a href="tel:07734905327">07734 905 327</a>
-
-## Email:
-info@robpointon.co.uk
+For any other enquiries, please email info@robpointon.co.uk or use the form below.
