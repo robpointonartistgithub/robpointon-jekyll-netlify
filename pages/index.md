@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: Rob Pointon ROI
-subtitle: Plein air artist (most of the time)
+subtitle: Plein air artist
 imageUrl: /assets/img/uploads/enchantent-of-painting.jpg
 button_text: View the gallery
 button_link: /gallery/

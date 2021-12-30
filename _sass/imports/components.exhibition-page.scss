@@ -21,6 +21,10 @@
 	margin-bottom: 2rem;
 }
 
+.exhibition__content p {
+	margin-bottom: 1em;
+}
+
 @media #{$medium-and-down} {
 	.exhibition__wrapper {
 		padding-top: 40px;

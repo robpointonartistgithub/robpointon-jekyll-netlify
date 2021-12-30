@@ -6,7 +6,7 @@ section: about
 intro_paragraph: |
   Rob paints entirely en plein air and has a particular interest in the use of wider angle perspectives and the depiction of movement within his painting.
 ---
-![Rob Pointon painting en plein air](/assets/img/uploads/rob-profile.jpg)
+![Rob Pointon painting en plein air](/assets/img/uploads/Rob-Profile-Rode-Heath.jpg)
 
 Rob paints entirely en plein air and has a particular interest in the use of wider angle perspectives and the depiction of movement within his paintings.
 

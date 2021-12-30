@@ -1,8 +1,24 @@
 ---
 layout: default
 ---
+<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
 
-{% include partials/slim-banner.html bgimage="news-listing-bg.jpg" %}
+
+<div class="news-intro sidebeside-hero-banner row">
+  <div class="sidebeside-hero-banner__information col s12 m7 l5 right">
+    <div class="sidebeside-hero-banner__informationcontent">
+      <h2 class="txt-xlarge">Be among the first to see Rob’s work in progress</h2>
+      <p>See painitings as they are created and still wet in the landscape by following Rob on social media...</p>
+      <p><a class="news-list__link" href="https://www.instagram.com/robpointonartist/" title="Instagram">Instagram</a></p>
+      <p><a class="news-list__link" href="https://www.facebook.com/RobPointon" title="Facebook">Facebook</a></p>
+      <p><a class="news-list__link" href="https://twitter.com/rob_pointon" title="Twitter">Twitter</a></p>
+      
+    </div>
+  </div>
+  <div class="sidebeside-hero-banner__image col s12 m5 l7">
+    <img src="/assets/img/uploads/Rob-Profile-Windsor.jpg">
+  </div>
+</div>
 
 <div class="content-wrapper written-content">
 
@@ -19,7 +35,7 @@ layout: default
       {% if news.showdate == true %}
         <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
       {% endif %}
-      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 180 }}{% endif %}</p>
       <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
       {% endfor %}
     </li>
@@ -35,7 +51,7 @@ layout: default
       {% if news.showdate == true %}
         <p class="txt-small"><time datetime="{{ news.date | date_to_string }}" itemprop="datePublished">{{ news.date | date_to_string }}</time></p>
       {% endif %}
-      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+      <p>{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | strip_newlines | truncate: 180 }}{% endif %}</p>
       <a class="news-list__link" href="{{ news.url }}" title="{{ news.title }}">Read more<span class="accessibility-text"> about {{ news.title }}</span></a>
   </li>
 {% endfor %}
