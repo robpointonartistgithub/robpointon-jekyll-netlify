@@ -15,9 +15,9 @@
     <div class="hero-banner__content--wrapper">
         <div class="hero-banner__content--inner">
             <div class="hero-banner__content--text">
-                <h2 class="txt-huge">{{page.title}}</h2>
-                {% if page.subtitle and page.subtitle != '' %}
-                    <p>{{ page.subtitle }}</p>
+                <h2 class="txt-huge">{{page.hero_banner_title}}</h2>
+                {% if page.subtitle and page.hero_banner_subtitle != '' %}
+                    <p>{{ page.hero_banner_subtitle }}</p>
                 {% endif %}
                 {% if page.button_link and page.button_link != '' %}
                     <p><a class="btn" href="{{ page.button_link }}"><span class="btn__text">{{ page.button_text }}</span></a></p>

@@ -1,8 +1,9 @@
 ---
 layout: home
 permalink: /
-title: Rob Pointon ROI
-subtitle: Plein air artist
+title: Rob Pointon | Painting from life
+hero_banner_title: Rob Pointon <br/>Painting from life
+hero_banner_subtitle:
 imageUrl: /assets/img/uploads/enchantent-of-painting.jpg
 button_text: View the gallery
 button_link: /gallery/
