@@ -1,7 +1,7 @@
 ---
 layout: exhibition
 date: 2021-06-20T20:13:21.013Z
-title: Ffin y Parc Gallery
+title: Ffin y Parc Gallery 2021
 bannerImageLarge: /assets/img/uploads/ffin-y-parc-gallery-2021-exhibition-large.jpg
 bannerImageSmall: /assets/img/uploads/ffin-y-parc-gallery-2021-exhibition-small.jpg
 dateOfShow: 20 June 2021 - 14 July 2021
