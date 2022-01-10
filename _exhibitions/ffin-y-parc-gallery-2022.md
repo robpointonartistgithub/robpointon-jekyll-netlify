@@ -1,7 +1,7 @@
 ---
 layout: exhibition
 date: 2021-12-27T20:13:21.013Z
-title: Ffin y Parc Gallery 2021
+title: Ffin y Parc Gallery 2022
 bannerImageLarge: /assets/img/uploads/ffin-y-parc-gallery-2022-exhibition-large.jpg
 bannerImageSmall: /assets/img/uploads/ffin-y-parc-gallery-2022-exhibition-small.jpg
 dateOfShow: 3 April - 27 April 2022
