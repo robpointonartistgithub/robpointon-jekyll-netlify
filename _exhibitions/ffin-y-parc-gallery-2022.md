@@ -8,8 +8,10 @@ dateOfShow: 3 April - 27 April 2022
 openTimes: 
 locationName: Ffin y Parc Gallery
 locationAddress: Betws Road<br/>Llanrwst<br/>Conwy<br/>LL26 0PT
-locationMapLink: https://goo.gl/maps/m15CnJzBvagKmmQb8
+locationMapLink: https://goo.gl/maps/PoPQQAFiQnTQj52bA
 addmissionDetail: Admission details TBC
 gallery: 
 ---
-Following on from the success of Rob's debut exhibition at Ffin y Parc in June 2021, Rob shall present of collection of 12 fresh works this springtime.
+Following on from the success of Rob's debut exhibition at Ffin y Parc in June 2021, Rob shall present of collection of 12 fresh works focusing on the urban landscapes of North Wales, primarily Llandudno and Blaenau Ffestiniog.
+
+[See the Exhibition Catalogue here](https://welshart.net/exhibitions/172/works/)

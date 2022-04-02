@@ -8,7 +8,7 @@ dateOfShow: 20 June 2021 - 14 July 2021
 openTimes: 
 locationName: Ffin y Parc Gallery
 locationAddress: Betws Road<br/>Llanrwst<br/>Conwy<br/>LL26 0PT
-locationMapLink: https://goo.gl/maps/m15CnJzBvagKmmQb8
+locationMapLink: https://goo.gl/maps/PoPQQAFiQnTQj52bA
 addmissionDetail: Admission free
 gallery: 
 ---
