@@ -5,12 +5,12 @@ title: An Unprecedented Year
 bannerImageLarge: /assets/img/uploads/unprecedented-year-exhibition-large.jpg
 bannerImageSmall: /assets/img/uploads/unprecedented-year-exhibition-small.jpg
 dateOfShow: 23 October - 6 November 2020
-openTimes: 
+openTimes: null
 locationName: Contemporary Six
 locationAddress: 37 Princess St<br/>Manchester<br/>M2 4FN
 locationMapLink: https://goo.gl/maps/m15CnJzBvagKmmQb8
-addmissionDetail: Online & timed visiting slots. Admission free
-gallery: 
+addmissionDetail: Online & timed visiting slots. Admission free.
+gallery: null
 ---
 Contemporary Six is thrilled to present a new body of work by Gallery-artist Rob Pointon.
 
