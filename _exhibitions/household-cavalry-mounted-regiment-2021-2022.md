@@ -12,7 +12,7 @@ locationMapLink: https://g.page/PanterandHall?share
 addmissionDetail: Please email info@robpointon.co.uk to be added to the mailing list
 gallery: null
 ---
-The first major solo exhibition of Rob Pointon ROI in London on his 40th year, Panter and Hall Gallery shall present the long awaited exhibition of works as Artist in Residence for The Household Cavalry Mounted Regiment.
+The first major solo exhibition of Rob Pointon ROI in London on his 40th year, [Panter and Hall Gallery](https://www.panterandhall.com/collections/rob-pointon-paintings-from-a-residency-with-the-household-cavalry-mounted-regiment) shall present the long awaited exhibition of works as Artist in Residence for The Household Cavalry Mounted Regiment.
 
 The project’s purpose has been to document an extraordinary period in the history of The Household Cavalry Mounted Regiment. A selection of works have already been on public display inside The Household Cavalry Museum at Horse Guards Parade.
 
