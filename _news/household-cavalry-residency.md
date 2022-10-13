@@ -13,3 +13,7 @@ Rob has been present painting live at every major state event of the ceremonial 
 Not since Terrence Cuneo has an artist been given such unrestricted access to the Regiment's activities.
 
 **The paintings will be exhibited at[ Panter and Hall Gallery,](https://www.panterandhall.com/collections/rob-pointon-paintings-from-a-residency-with-the-household-cavalry-mounted-regiment) Pall Mall from the 12th - 28th October 2022**
+
+
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/752115059?h=097c81ee97&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Rob Pointon: A Residency with The Household Cavalry"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
