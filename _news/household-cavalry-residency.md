@@ -11,3 +11,5 @@ Throughout 2021 and 2022 Rob is the Artist in Residence for The Household Cavalr
 Rob has been present painting live at every major state event of the ceremonial season resulting in a series of unique moments captured in oils. Indeed, the project was even briefed to Her Majesty the Queen in advance of the 2021 Queen’s Birthday Parade and resulted in him being personally invited by her to paint the parade from her private quarters within Windsor Castle.
 
 Not since Terrence Cuneo has an artist been given such unrestricted access to the Regiment's activities.
+
+**The paintings will be exhibited at[ Panter and Hall Gallery,](https://www.panterandhall.com/collections/rob-pointon-paintings-from-a-residency-with-the-household-cavalry-mounted-regiment) Pall Mall from the 12th - 28th October 2022**
