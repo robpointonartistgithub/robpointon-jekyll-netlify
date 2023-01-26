@@ -5,9 +5,10 @@ title: Ffin Y Parc Exhibition and Book Launch, Llanwrst, Wales
 bannerImageLarge: /assets/img/uploads/07-22-entrance-to-the-pier-llandudno-24x36-.jpg
 bannerImageSmall: /assets/img/uploads/08-22-llandudno-pier-contre-jour-30x24-3600.jpg
 dateOfShow: 25 June - 19 July 2023
-openTimes: Wed - Sat  - 10am - 5pm  Sun - 11am - 5pm
+openTimes: Wednesday to Saturday - Open 10am - 5pm, Sundays Open 11am - 5pm
 locationName: Ffin y Parc Gallery
 locationAddress: Betws Road. Llanrwst, Conwy, LL26 0PT
+locationMapLink: https://goo.gl/maps/3kWgkh1Wsx7xgEdp8
 ---
 Exhibition and book launch at The Country House Gallery and Cafe Ffin y Parc in Llanrwst, Snowdonia.
 My Largest exhibition to date with this fabulous gallery. 
