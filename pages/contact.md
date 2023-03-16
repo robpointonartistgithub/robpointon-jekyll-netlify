@@ -12,6 +12,6 @@ intro_paragraph: |-
   flagged, will display a CAPTCHA challenge to the user.
 logo: /assets/img/uploads/household-cavalry-residency.jpg
 ---
-To arrange a viewing please email us using info@robpointon.co.uk or telephone <a href="tel:07734905327">07734 905 327</a> and you will speak to Rob or Karen, who will be happy to discuss arrangements and answer any questions.
+To arrange a viewing of any paintings of interest please email us using info@robpointon.co.uk or telephone <a href="tel:07734905327">07734 905 327</a> and you will speak to Rob or Karen, who will be happy to discuss arrangements and answer any questions.
 
 For any other enquiries, please email info@robpointon.co.uk or use the form below.
