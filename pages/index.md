@@ -4,7 +4,7 @@ permalink: /
 title: Rob Pointon | Painting from life
 hero_banner_title: Rob Pointon<br/>Painting from life
 hero_banner_subtitle: HCMR
-imageUrl: /assets/img/uploads/trooping-the-colour-profile.jpg
+imageUrl: /assets/img/uploads/exhibition_small_example.jpeg
 button_text: View the gallery
 button_link: /gallery/
 video_webm: assets/img/uploads/trooping-the-colour-search-around-1280x720.webm
