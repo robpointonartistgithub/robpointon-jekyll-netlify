@@ -1,7 +1,7 @@
 ---
 layout: exhibition
 date: 2023-01-13T13:57:01.256Z
-title: Ffin Y Parc Exhibition and Book Launch, Llanwrst, Wales
+title: Ffin Y Parc Major Solo Exhibition, Llanwrst, Wales
 bannerImageLarge: /assets/img/uploads/07-22-entrance-to-the-pier-llandudno-24x36-.jpg
 bannerImageSmall: /assets/img/uploads/08-22-llandudno-pier-contre-jour-30x24-3600.jpg
 dateOfShow: 25 June - 19 July 2023
