@@ -10,7 +10,7 @@ locationName: Ffin y Parc Gallery
 locationAddress: Betws Road. Llanrwst, Conwy, LL26 0PT
 locationMapLink: https://goo.gl/maps/3kWgkh1Wsx7xgEdp8
 ---
-Exhibition and book launch at The Country House Gallery and Cafe Ffin y Parc in Llanrwst, Snowdonia.
+Exhibition at The Country House Gallery and Cafe Ffin y Parc in Llanrwst, Snowdonia.
 My Largest exhibition to date with this fabulous gallery. 
 
 Paintings produced amongst the colour and chaos of Llandudno's pier, the drama of Conwy's town walls and the bleak slate heaps of Blaenau Ffestiniog. Coupled with some non-Welsh work from Seville and further afield.
