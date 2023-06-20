@@ -42,9 +42,9 @@ The Royal Institute of Oil Painters (ROI 2021)
 
 ING Discerning Eye (2021)
 
-The British Plein Air Painters, The Mall Galleries 2021
+The British Plein Air Painters, The Mall Galleries (2021)
 
-Ffin y Parc Gallery 2021
+Ffin y Parc Gallery (2021)
 
 The Royal Institute of Oil Painters (ROI 2020)
 
@@ -106,45 +106,45 @@ Drawing in private collection of Duchess of Devonshire Chatsworth
 
 ## Awards and Honours
 
-Official Artist at The First Birthday Parade of The New Reign, Trooping the Colour 2023
+Official Artist at The First Birthday Parade of The New Reign, Trooping the Colour (2023)
 
-Official Artist during The Coronation of HRH King Charles III 2023
+Official Artist during The Coronation of HRH King Charles III (2023)
 
-Official Artist during HRH King Charles III Presentation of new standard and colours, Tri-service event, Buckingham Palace 2023
+Official Artist during HRH King Charles III Presentation of new standard and colours, Tri-service event, Buckingham Palace (2023)
 
-Painting live during The Lord Mayors Banquet, The Guildhall, City of London 2022
+Painting live during The Lord Mayors Banquet, The Guildhall, City of London (2022)
 
-Sketching live inside Westminster Hall during The Lying in State of HRH Queen Elizabeth II 2022
+Sketching live inside Westminster Hall during The Lying in State of HRH Queen Elizabeth II (2022)
 
-Overall Winner & Quick Draw 1st Prize, Art in the Open, Wexford 2022
+Overall Winner & Quick Draw 1st Prize, Art in the Open, Wexford (2022)
 
-Official Artist at The Platinum Jubilee, Trooping the Colour 2022
+Official Artist at The Platinum Jubilee, Trooping the Colour (2022)
 
-ING Discerning Eye, Judges Pick (Peter Brown) 2021
+ING Discerning Eye, Judges Pick (Peter Brown) (2021)
 
-Painting live inside HRH Queen Elizabeth II Private Chambers during Trooping the Colour 2021 (Covid restricted)
+Painting live inside HRH Queen Elizabeth II Private Chambers during Trooping the Colour (Covid restricted) (2021) 
 
-Painted Live at a Royal Gala Dinner to celebrate the conservation of The Painted Hall in Greenwich and discussed the painting with The Princess Royal at the end of the evening, 2019
+Painted Live at a Royal Gala Dinner to celebrate the conservation of The Painted Hall in Greenwich and discussed the painting with The Princess Royal at the end of the evening (2019)
 
-Elected Full Member of Royal Institute of Oil Painters, 2019
+Elected Full Member of Royal Institute of Oil Painters (2019)
 
-1st Prize, ROI Paint Live Competition, 2018
+1st Prize, ROI Paint Live Competition, (2018)
 
-The Menena Joy Schwabe Memorial Award, ROI Annual Exhibition 2018
+The Menena Joy Schwabe Memorial Award, ROI Annual Exhibition (2018)
 
-Overall Winner, 1st Prize in Oils, Judges Commendation, Paint Out 2018
+Overall Winner, 1st Prize in Oils, Judges Commendation, Paint Out (2018)
 
-Winsor & Newton Artist Award, ROI Annual Exhibition 2016
+Winsor & Newton Artist Award, ROI Annual Exhibition (2016)
 
-Winner of the Haworth Prize, New English Art Club 2016
+Winner of the Haworth Prize, New English Art Club (2016)
 
-3rd Prize, Buxton Spa Prize, 2016
+3rd Prize, Buxton Spa Prize, (2016)
 
-2nd Prize, ROI Paint Live Competition, Dec 2015
+2nd Prize, ROI Paint Live Competition, Dec (2015)
 
-2nd Place People’s Choice, Buxton Spa Prize, 2015
+2nd Place People’s Choice, Buxton Spa Prize, (2015)
 
-Buxton Festival Choice Prize, Buxton Spa Prize, 2015
+Buxton Festival Choice Prize, Buxton Spa Prize, (2015)
 
 1st Prize Winner £1000, Staffordshire Open, Shire Hall Gallery (2014)
 
@@ -156,10 +156,10 @@ Visitors Choice Prize, Staffordshire Open, Shire Hall Gallery (2011)
 
 Open 09 1st Prize Winner, Newcastle Borough Museum & Art Gallery
 
-Young Artist Award from The National Association of Decorative & Fine Arts Societies (NADFAS) 2006
+Young Artist Award from The National Association of Decorative & Fine Arts Societies (NADFAS) (2006)
 
-Awarded Winsor & Newton Prize for British Museum work 2005
+Awarded Winsor & Newton Prize for British Museum work (2005)
 
-Awarded Drawing Prize (Royal Drawing School) 2005
+Awarded Drawing Prize (Royal Drawing School) (2005)
 
-Awarded bursary ‘The Drawing Year’ study at The Royal Drawing School 2004–05
+Awarded bursary ‘The Drawing Year’ study at The Royal Drawing School (2004–05)
