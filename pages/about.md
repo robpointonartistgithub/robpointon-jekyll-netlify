@@ -30,13 +30,13 @@ MAFA – Manchester Academy of Fine Arts (May 2016 - Present)
 
 ## Recent Exhibitions
 
-SOLO - Ffin y Parc Gallery 2023
+SOLO - Ffin y Parc Gallery (2023)
 
 The Royal Institute of Oil Painters (ROI 2022)
 
-SOLO - Paintings from a Residency with the Household Cavalry, Panter and Hall Gallery 2022
+SOLO - Paintings from a Residency with the Household Cavalry, Panter and Hall Gallery (2022)
 
-Ffin y Parc Gallery 2022
+Ffin y Parc Gallery (2022)
 
 The Royal Institute of Oil Painters (ROI 2021)
 
