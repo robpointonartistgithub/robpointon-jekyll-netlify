@@ -12,6 +12,8 @@ locationMapLink: https://goo.gl/maps/1PHN8UvzHDd7truo8
 ---
 My first showcase in Manchester for 3 years, this collection of new plein air work develops previous areas of interest with a return to painting inside the grandeur of the City Art Gallery and amongst the crowds of commuters inside Piccadilly Station. 
 
+![](/assets/img/uploads/c6-exhibition-2.jpg)
+
 Alongside these, a new avenue of interest with a haunting series of alla prima pieces painted on site in the atmospheric alleyways of Manchester's Northern Quarter and Chinatown. These draw influence from the New York Ashcan School, capturing the iconic iron fire escapes and less iconic wheelie bins. A honest and less polished portrayal of the City.
 
 ![](/assets/img/uploads/c6-exhibition.jpg)
