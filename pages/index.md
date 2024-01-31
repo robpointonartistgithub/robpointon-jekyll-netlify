@@ -3,10 +3,10 @@ layout: home
 permalink: /
 title: Rob Pointon | Painting from life
 hero_banner_title: Rob Pointon<br/>Painting from life
-hero_banner_subtitle:
-imageUrl: /assets/img/uploads/enchantent-of-painting.jpg
+hero_banner_subtitle: HCMR
+imageUrl: /assets/img/uploads/07-23-distant-cries-24x36-4500.jpg
 button_text: View the gallery
 button_link: /gallery/
-video_webm: /assets/video/enchantment.webm
-video_mp4: /assets/video/enchantment.mp4
+video_webm: assets/img/uploads/trooping-the-colour-search-around-1280x720.webm
+video_mp4: assets/img/uploads/trooping-the-colour-search-around-1280x720.mp4
 ---
