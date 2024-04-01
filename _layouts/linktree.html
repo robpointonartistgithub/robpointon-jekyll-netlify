@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
+
+<div class="content-wrapper written-content">
+
+{{ content }}
+
+{% for linktree_link in page.linktree_links %}
+<p class="linktree-link btn--align__center">
+  <a class="btn btn--type__hollow" href="{{ linktree_link.url }}">
+    <span class="btn__text">{{ linktree_link.heading }}</span>
+  </a>
+</p>
+{% else %}
+  <p>There has been an error or there are no links to view</p>
+{% endfor %}
+
+{% for linktree_link in page.data.linktrees %}
+    <a href="https://github.com/{{ member.github }}">
+      {{ linktree_item.label }}
+  </a>
+{% endfor %}
+
+</div>
+
+

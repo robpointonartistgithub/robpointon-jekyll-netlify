@@ -43,6 +43,13 @@ img {
     max-width: 100%;
 }
 
+.content-wrapper--wide {
+    max-width: 1136px;
+}
+
+.content-wrapper--wide h2 {
+    text-align: center;
+}
 
 
 @media #{$medium-and-down} {

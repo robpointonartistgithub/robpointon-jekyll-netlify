@@ -34,12 +34,23 @@
     text-align: center;
 }
 
-.btn.hollow {
-    border: 1px solid #767676;
-    color: #767676;
+.btn--type__hollow {
+    background-color: #fff;
+    border: 2px solid #111;
     padding: .7em 4em;
     border-radius: 0;
     font-weight:400;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    color: #111;
+}
+
+.content-wrapper a.btn.btn--type__hollow:link, .content-wrapper a.btn--type__hollow:visited {
+    color: #000;
+}
+
+.content-wrapper a.btn.btn--type__hollow:hover, .content-wrapper a.btn.btn--type__hollow:focus {
+    color: #fff;
+    background-color: #111;
 }
 
 .btn.hollow, .btn.hollow:hover, .btn.hollow:focus {

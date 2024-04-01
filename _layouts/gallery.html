@@ -3,8 +3,9 @@ layout: default
 ---
 
 <h1 class="center txt-xlarge section-title">{{ page.title }}</h1>
-
+<div class="content-wrapper content-wrapper--wide written-content">
 {{ content }}
+</div>
 
 <div id="aa_embed" style="clear: both;"></div>
 <script type="text/javascript">
@@ -14,5 +15,6 @@ layout: default
     s.src = "https://www.artworkarchive.com/profile/rob-pointon/embed_js.js";
     (d.head || d.body).appendChild(s);
   })();
+  console.log();
 </script>
 <noscript>Please enable JavaScript to view the artwork.</noscript>

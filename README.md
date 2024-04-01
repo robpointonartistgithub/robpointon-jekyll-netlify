@@ -11,16 +11,6 @@ bundle exec jekyll serve
 
 
 
-##Edit the number of columns for Gamma display
-
-js > custom > gamma.js
-
-```defaults = {
-			// default value for masonry column count
-			columns : 3,
-}```
-
-
 ## Jekyll Netlify Boilerplate
 
 *Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*
@@ -100,8 +90,35 @@ Jekyll will watch your project folder for changes.
 Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, and
 [localhost:4000/admin](http://localhost:4000/admin) to log into the CMS.
 
-## Bug reports, feature requests, etc
+## Edit content locally
+To access the Netlify CMS admin on your local machine, follow these steps:
 
-This is an ongoing project and I welcome contributions. Feel free to submit a PR.
+change local_backend to true ```local_backend: true ``` in the config.yml file in the admin folder.
 
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+Run npx netlify-cms-proxy-server from the root directory of the repository. The proxy server will run on a different port, typically port 8081.
+
+Now, go to whatever route is running your website locally and go to /admin. So, if the app runs on port 3000 for example, you can access your admin at localhost:3000/admin
+
+## Debug...
+
+```
+    site: {{ site | jsonify | escape }}
+    page: {{ page | jsonify | escape }}
+    layout: {{ layout | jsonify | escape }}
+    content: {{ content | jsonify | escape }}
+    paginator: {{ paginator | jsonify | escape }}
+    Link tree: {{ site.data.members | jsonify | escape  }}
+    Link tree: {{ site.data.linktrees.linktree.linktree_items | jsonify | escape  }}
+```
+
+<pre id="jekyll-debug"></pre>
+<script>
+  var obj = JSON.parse(decodeURIComponent("{{ page | jsonify | uri_escape }}"));
+  var prettyJson = JSON.stringify(obj, null, 4);  // Pretty-printed JSON (indented 4 spaces).
+  document.getElementById("jekyll-debug").textContent = prettyJson;
+</script>
+```
+
+
+
+
