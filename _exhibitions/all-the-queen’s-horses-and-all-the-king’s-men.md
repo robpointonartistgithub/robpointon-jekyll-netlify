@@ -10,3 +10,6 @@ locationName: Panter & Hall
 locationAddress: 21-22 Pall Mall, London, SW1Y 5LP
 addmissionDetail: +44 (0)20 7399 9999, enquiries@panterandhall.com
 ---
+Artist Residencies with the Household Cavalry & Household Division 
+
+Private View 12th November 2024
