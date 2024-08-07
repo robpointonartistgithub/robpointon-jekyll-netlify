@@ -9,7 +9,10 @@ openTimes: "Monday to Friday: 10AM - 6PM Saturdays: 11AM - 2PM"
 locationName: Panter & Hall Gallery
 locationAddress: 21-22 Pall Mall, London, SW1Y 5LP, +44 (0)20 7399 9999,
   enquiries@panterandhall.com
-locationMapLink: https://maps.app.goo.gl/cwsTD8koZtXUKeaK9
+locationMapLink: <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.352707535611!2d-0.1366640228203864!3d51.50674487181321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760528d2f4b331%3A0x2275144ad7c22e46!2sPanter%20%26%20Hall!5e0!3m2!1sen!2suk!4v1723023174859!5m2!1sen!2suk"
+  width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
 addmissionDetail: Please email info@robpointon.co.uk to register interest in the
   paintings or to be added to the mailing list.
 ---
