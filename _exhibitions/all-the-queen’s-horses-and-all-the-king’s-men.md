@@ -20,3 +20,5 @@ Private View 12th November 2024 please email **info@robpointon.co.uk** if you wo
 A percentage of all sales will be donated to charity.
 
 Please email info@robpointon.co.uk to register interest in the paintings or t﻿o be added to the mailing list and kept informed of the project.
+
+https://maps.app.goo.gl/cwsTD8koZtXUKeaK9
