@@ -10,6 +10,10 @@ locationName: Panter & Hall
 locationAddress: 21-22 Pall Mall, London, SW1Y 5LP
 addmissionDetail: +44 (0)20 7399 9999, enquiries@panterandhall.com
 ---
-Artist Residencies with the Household Cavalry & Household Division 
+Artist Residencies with the Household Cavalry & Household Division.
 
-Private View 12th November 2024
+Private View 12th November 2024 please email **info@robpointon.co.uk** if you would like to attend the preview
+
+A percentage of all sales will be donated to charity.
+
+Please email info@robpointon.co.uk to register interest in the paintings or t﻿o be added to the mailing list and kept informed of the project.
