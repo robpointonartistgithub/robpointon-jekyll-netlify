@@ -12,4 +12,6 @@ addmissionDetail: +44 (0)20 7399 9999, enquiries@panterandhall.com
 ---
 Artist Residencies with the Household Cavalry & Household Division 
 
-Private View 12th November 2024
+Private View 12th November 2024 please email **info@robpointon** if you would like to attend the preview
+
+Please email info@robpointon.co.uk to be added to the mailing list
