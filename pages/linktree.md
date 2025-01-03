@@ -7,6 +7,8 @@ intro_paragraph: >
   This is the Linktree index page, listing each Linktree post with a title and
   link
 linktree_links:
+  - heading: January Challenge 2025
+    url: https://www.artworkarchive.com/rooms/rob-pointon/4eeac5
   - heading: View latest work
     url: https://www.robpointon.co.uk/
   - heading: Exhibitions
@@ -17,8 +19,6 @@ linktree_links:
     url: https://us11.list-manage.com/subscribe?u=07825164219f71fb5f62b17f5&id=09cb7a485a
   - heading: Shop (Books and Calendars)
     url: https://pointon-picture-library.myshopify.com/
-  - url: https://www.claybodytheatre.com/tickets/
-    heading: "Ticket Link - Claybody Theatre - A PORTRAIT OF THE AUDIENCE "
   - heading: Instagram
     url: https://www.instagram.com/robpointonartist/
   - heading: Facebook
