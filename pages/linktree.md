@@ -7,7 +7,7 @@ intro_paragraph: >
   This is the Linktree index page, listing each Linktree post with a title and
   link
 linktree_links:
-  - heading: Steep Streets
+  - heading: Fake Tales of San Francisco
     url: https://www.artworkarchive.com/rooms/rob-pointon/1b5245
   - heading: View latest work
     url: https://www.robpointon.co.uk/
