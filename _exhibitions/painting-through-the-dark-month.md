@@ -1,0 +1,24 @@
+---
+layout: exhibition
+date: 2025-11-25T14:34:32.286Z
+title: Painting through the Dark Month
+bannerImageLarge: /assets/img/uploads/01-25-snowy-terraces-40x60.jpg
+bannerImageSmall: /assets/img/uploads/02-25-kink-50x40-1950.jpg
+dateOfShow: 2 January - 17 March 2026
+openTimes: "Tuesday to Saturday: 10:00am to 5:00pm.  Sunday: 1:30pm to 5:00pm"
+locationName: The Brampton Museum
+locationAddress: Brampton Park, Newcastle-under-Lyme, ST5 0QP
+locationMapLink: <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.197642531873!2d-2.2215556228235935!3d53.0168099721955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a6806fdb23229%3A0xfdaed37c7215558d!2sThe%20Brampton%20Museum!5e0!3m2!1sen!2suk!4v1764081625071!5m2!1sen!2suk"
+  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
+---
+Local artist Rob Pointon will be attempting the challenge of completing an oil painting a day throughout the month of January. Rob paints outdoors in all weathers, temperatures, day or night. As soon as the painting is completed we shall hang it and gradually populate this exhibition. Keep returning to see Rob's progress, but don't touch the paintings as they might still be wet!
+
+You can even paint alongside Rob on a Saturday within walking distance of the museum. We will exhibit some of the works you create alongside this exhibition.
+
+We shall have an official opening when the last painting is hung on the 31st January. There will be further talks and workshops throughout the remainder of the show.
+
+Rob finds the challenge of a daily deadline an added driving force to get out and keep working hard throughout the winter months. Painting 7 days a week can lead to exciting new ideas and breakthroughs. Last January he began exaggerating the slopes of Stoke on Trent resulting in dynamic, engaging paintings that can convey the feeling of a street more than a conventional photograph. 
+
+What will happen this month?
