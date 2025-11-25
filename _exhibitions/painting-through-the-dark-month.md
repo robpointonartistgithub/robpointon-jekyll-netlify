@@ -5,13 +5,10 @@ title: Painting through the Dark Month
 bannerImageLarge: /assets/img/uploads/01-25-snowy-terraces-40x60.jpg
 bannerImageSmall: /assets/img/uploads/02-25-kink-50x40-1950.jpg
 dateOfShow: 2 January - 17 March 2026
-openTimes: "Tuesday to Saturday: 10:00am to 5:00pm.  Sunday: 1:30pm to 5:00pm"
+openTimes: "Tues to Sat: 10:00am to 5:00pm <BR/> Sun: 1:30pm to 5:00pm"
 locationName: The Brampton Museum
 locationAddress: Brampton Park, Newcastle-under-Lyme, ST5 0QP
-locationMapLink: <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2400.197642531873!2d-2.2215556228235935!3d53.0168099721955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a6806fdb23229%3A0xfdaed37c7215558d!2sThe%20Brampton%20Museum!5e0!3m2!1sen!2suk!4v1764081625071!5m2!1sen!2suk"
-  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"></iframe>
+locationMapLink: https://maps.app.goo.gl/8en8bMf4yTCtWS1D6
 ---
 Local artist Rob Pointon will be attempting the challenge of completing an oil painting a day throughout the month of January. Rob paints outdoors in all weathers, temperatures, day or night. As soon as the painting is completed we shall hang it and gradually populate this exhibition. Keep returning to see Rob's progress, but don't touch the paintings as they might still be wet!
 
