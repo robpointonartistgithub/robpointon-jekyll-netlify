@@ -19,3 +19,5 @@ We shall have an official opening when the last painting is hung on the 31st Jan
 Rob finds the challenge of a daily deadline an added driving force to get out and keep working hard throughout the winter months. Painting 7 days a week can lead to exciting new ideas and breakthroughs. Last January he began exaggerating the slopes of Stoke on Trent resulting in dynamic, engaging paintings that can convey the feeling of a street more than a conventional photograph. 
 
 What will happen this month?
+
+https://youtu.be/mZdomu0-vbE
