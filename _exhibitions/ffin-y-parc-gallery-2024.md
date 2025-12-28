@@ -4,7 +4,7 @@ date: 2025-03-21T12:39:00.000Z
 title: Ffin y Parc Gallery 2026
 bannerImageLarge: /assets/img/uploads/09-25-slate-grey-blaneau-ffestiniog-60x50.jpg
 bannerImageSmall: /assets/img/uploads/09-25-are-we-nearly-there-yet-40x50.jpg
-dateOfShow: 12.06.26 - 04.07.26
+dateOfShow: 12 June - 04 July 2026
 openTimes: Tuesday - Saturday - 10am - 5pm
 locationName: Ffin y Parc Gallery
 locationAddress: 24 Trinity Square, Llandudno, LL30 2RH
