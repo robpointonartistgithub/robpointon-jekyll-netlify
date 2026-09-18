@@ -9,7 +9,7 @@ intro_paragraph: >
 linktree_links:
   - heading: Available work for purchase
     url: /available-for-purchase
-  - heading: Calendars
+  - heading: Calendar 2027
     url: https://pointon-picture-library.myshopify.com/collections/all/calendar
   - heading: Limited Edition Prints
     url: https://pointon-picture-library.myshopify.com/collections/limited-edition-prints
