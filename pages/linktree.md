@@ -11,7 +11,7 @@ linktree_links:
     url: /available-for-purchase
   - url: https://pointon-picture-library.myshopify.com/collections/limited-edition-prints
     heading: Limited Edition Prints
-  - heading: Calendar 2027
+  - heading: Calendar 2027 (Now available)
     url: https://pointon-picture-library.myshopify.com/collections/all/calendar
   - heading: Exhibitions
     url: https://www.robpointon.co.uk/exhibitions-listing
