@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8"
+gem "jekyll", "~> 4.3"
 
 #Fix vulnerability reported by GitHub dependabot
 gem "kramdown-parser-gfm"
